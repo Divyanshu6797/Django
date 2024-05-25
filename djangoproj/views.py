@@ -3,12 +3,12 @@ from django.shortcuts import render
 
 def home(request):
     # return HttpResponse('Hello, Django!')
-    return render(request, 'index.html')
+    return render(request, 'websites/index.html')
 
 def about(request):
     return HttpResponse('About us')
 
 def contact(request):
     # return HttpResponse('Contact us')
-    return render(request, 'websites/contact.html')
+    return HttpResponse('contact page')
 
