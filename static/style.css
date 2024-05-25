@@ -1,0 +1,10 @@
+body {
+    background-color: brown;
+    color: white;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+}
